@@ -5,7 +5,7 @@ class Post{
 
   void likePost(){
       postLikes++;
-      System.out.println("You liked this.";
+      System.out.println("You liked this.");
    }
 
    public String toString(){
@@ -14,3 +14,4 @@ class Post{
            + p.postLikes + " likes";
    }
 }
+
